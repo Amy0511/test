@@ -1,0 +1,19 @@
+{
+  "name": "layout-basic-example",
+  "private": true,
+  "version": "0.0.0",
+  "license": "Apache-2.0",
+  "scripts": {
+    "develop": "next",
+    "build": "next build && next export -o build"
+  },
+  "dependencies": {
+    "@carbon/layout": "link:../../",
+    "@carbon/styles": "link:../../../styles",
+    "change-case": "^4.1.1",
+    "next": "^12.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass": "^1.57.1"
+  }
+}

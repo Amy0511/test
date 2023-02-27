@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataTable.TableSelectRow renders as expected - Component API should render 1`] = `
+<div>
+  <div
+    class="cds--data-table-content"
+  >
+    <table
+      class="cds--data-table"
+    >
+      <thead>
+        <tr>
+          <td
+            class="cds--table-column-checkbox custom-class-name"
+          >
+            <div
+              class="cds--checkbox--inline"
+            >
+              <input
+                class="cds--checkbox"
+                id="id"
+                name="select-all"
+                type="checkbox"
+              />
+              <label
+                aria-label="Aria label"
+                class="cds--checkbox-label"
+                for="id"
+              />
+            </div>
+          </td>
+        </tr>
+      </thead>
+    </table>
+  </div>
+</div>
+`;
